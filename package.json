@@ -1,0 +1,28 @@
+{
+  "name": "stars-rating",
+  "version": "1.0.0",
+  "description": "star!star!star!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j4dream/star-rating.git"
+  },
+  "keywords": [
+    "jqury",
+    "plugin"
+  ],
+  "author": "j4dream",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/j4dream/star-rating/issues"
+  },
+  "homepage": "https://github.com/j4dream/star-rating",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-minify-css": "^1.2.0"
+  }
+}
