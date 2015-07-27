@@ -38,7 +38,7 @@
 
   $.fn.StarsRating = function(options) {
     if (!document.head.querySelector('#star-rating')) {
-      document.head.innerHTML += '<style id="star-rating" type="text/css">@{{main.css}}</style>';
+      document.head.innerHTML += '<style id="star-rating" type="text/css">@{{build/main.css}}</style>';
     }
     var options = $.extend({}, defaults, options);
     return this.each(function() {
