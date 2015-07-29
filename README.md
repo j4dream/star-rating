@@ -4,6 +4,6 @@ star-rating
 jquery plugin
 
 # Usage
-···javascript
+```javascript
 $('#id').StarsRating();
-···
+```
