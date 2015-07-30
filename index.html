@@ -8,10 +8,20 @@
 </head>
 <body>
 	<div id="test"></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
 </body>
 <script>
 	$(function () {
-		$('#test').StarsRating();
+		$('div').StarsRating(
+			{
+				size: '50px',
+				count: 10,
+				score: 10
+			}
+		);
 	});
 </script>
 </html>
